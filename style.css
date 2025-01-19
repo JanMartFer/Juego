@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center; /* Centra todo el contenido horizontalmente */
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 800px; /* Fija el ancho del contenedor principal */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #2c3e50;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.intro-text {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: left;
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+.intro-text p {
+  margin-bottom: 15px;
+}
+
+.instructions {
+  background-color: #34495e;
+  color: white;
+  padding: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+.instructions p {
+  margin-bottom: 15px;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Centra el juego horizontalmente */
+  align-items: center; /* Centra el juego verticalmente */
+  padding-left: 0; /* Elimina cualquier margen a la izquierda */
+}
+
+#p5-container {
+  position: relative;
+  height: 400px; /* Ajusta la altura del juego */
+  width: 600px;  /* Ajusta el ancho del juego */
+  margin-top: 20px;
+}
+
+.extra-space {
+  height: 50px; /* Espacio adicional debajo del juego */
+}
